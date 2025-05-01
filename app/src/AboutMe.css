@@ -1,0 +1,9 @@
+.aboutme{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #202020;
+    width: 100%;
+    border-color: #453750;
+    border-width: 1rem;
+}

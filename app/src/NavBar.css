@@ -1,0 +1,45 @@
+/* The whole nav bar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #202020;
+    width: 100%;
+}
+
+/* The icons */
+.navbar-right {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+/* The logo */
+.navbar-left {
+    display: flex;
+    align-items: left;
+    padding: 20px;
+}
+  
+ /* The words */
+.nav-button {
+    background-color: #202020;
+    border: none;
+    color: #FFD4D4;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    left:0;
+    border-radius: 25px;
+    padding: 20px;
+
+}
+
+.nav-button:hover {
+    color: #FF9FE5
+}
+
+
+  
+  
