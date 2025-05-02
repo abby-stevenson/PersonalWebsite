@@ -15,7 +15,9 @@ import './NavBar.css';
                     <button className='nav-button'>Education</button>
                     <button className='nav-button'>Projects</button>
                     <button className='nav-button'>Extracurriculars</button>
-                    <button className='nav-button'>Resume</button>
+                    <a href="/Resume.pdf" target="_blank" rel="noopener noreferrer">
+                        <button className="nav-button">Resume</button>
+                    </a>
                     <a href="https://www.linkedin.com/in/abbyostevenson/" target="_blank" rel="noopener noreferrer">
                         <button className='nav-button'>LinkedIn</button>
                     </a>
