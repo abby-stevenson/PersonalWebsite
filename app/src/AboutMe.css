@@ -1,9 +1,60 @@
-.aboutme{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.aboutme {
     background-color: #202020;
+    color: #FFD4D4;
+    padding: 20px;
     width: 100%;
-    border-color: #453750;
-    border-width: 1rem;
-}
+    
+    box-sizing: border-box;
+    overflow-x: hidden;
+  }
+  
+  .aboutme h2 {
+    position: relative;
+    transform: translateY(91%);
+    font-size: clamp(1.8rem, 4vw, 2.5rem);
+    margin-bottom: 1.5rem;
+    text-align: left;
+    padding: 0 1rem;
+    z-index: 1;
+    background-color: #202020;
+    width: 15%;
+  }
+  
+  .image-and-text {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: flex-start;
+  }
+  
+  .left-hand-side{
+    flex: 0 0 300px;
+  }
+
+  .right-hand-side {
+    flex: 1;
+    margin-left: 2rem;
+  }
+  
+  .headshot {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 1rem;
+  }
+  
+  .right-hand-side p {
+    font-size: clamp(1rem, 2vw, 1.2rem);
+    line-height: 1.6;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  .aboutme-border {
+    border: 2px solid #73648A;
+    padding: 2rem;
+    border-radius: 1rem;
+    position: relative;
+    z-index: 0;
+  }
