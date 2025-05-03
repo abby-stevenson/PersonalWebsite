@@ -1,0 +1,56 @@
+.education {
+    background-color: #202020;
+    color: #FFD4D4;
+    padding: 20px;
+    width: 100%;
+  }
+
+.education-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: flex-start;
+}
+
+.logo {
+    width: 31rem;     
+    height: 15rem;   
+    border-radius: 1rem;
+}
+
+.education-card {
+    flex: 1 1 300px;
+    min-width: 280px;
+    max-width: 500px;
+}
+
+.subject-and-grade {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    align-items: center; 
+    width: 100%; 
+    margin-right: 0.5rem; 
+}
+
+.subject-and-grade p,
+.subject-and-grade h5 {
+  margin: 0; 
+}
+
+.honours {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    align-items: center; 
+    width: 100%; 
+    margin-right: 0.5rem; 
+    gap: 20px;
+}
+
+.honours p,
+.honours h5 {
+  margin: 0; 
+}

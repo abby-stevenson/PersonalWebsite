@@ -1,0 +1,39 @@
+.education-card {
+    padding: 20px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    flex-wrap: wrap;
+}
+
+
+.collapsible-container {
+    border: 1px solid #888;
+    border-radius: 8px;
+    padding: 1rem;
+    margin: 1rem 0;
+    background-color: #202020;
+    color: #FFD4D4;
+    margin-bottom: 0.5rem;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    line-height: 1.5;
+  }
+  
+  .collapsible-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .toggle-button {
+    background-color: #202020;
+    border: none;
+    color: #FFD4D4;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    left:0;
+    border-radius: 25px;
+    padding: 20px;
+  }
