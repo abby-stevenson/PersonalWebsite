@@ -19,8 +19,8 @@ export default function AboutMe() {
             <p>
                 I grew up in a small town just north of London, and since starting at Northeastern in Fall 2023, I’ve been based in Boston.
             </p>
-            <p>
-                Last semester I took Intro to Database Design, Computer Systems, Probability and Statistics and Theory of Computation. 
+            <p> I love Taylor Swift's Music, I am also super interested in the Theme Park Industy specifically the intersection between Computer Science and this industy.
+              I am also passionate about Computer Science in Education and getting young kids involved in all STEM subjects.
             </p>
             </div>
         </div>
