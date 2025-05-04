@@ -13,9 +13,62 @@ export default function Eductaion() {
                 title = {"Candidate for Bachelors of Science"}
                 years = {"2023 - 2027"}
                 logo = {<img className="logo" src={NULogo} alt="Northeastern Logo" />}
-                classes = {"Coming soon"}
-                ec = {"Coming soon"}
-                honours = {"Coming soon"}
+                classes = {
+                    <div>
+                        <h3>Spring 2025</h3>
+                        <div className = "subject-and-grade"> <p> CS 3800 Theory of Computation</p> <h5> A </h5> </div>
+                        <div className = "subject-and-grade"> <p> CS 3650 Computer Systems</p> <h5> A </h5> </div>
+                        <div className = "subject-and-grade"> <p> CS 3200 Intro to Database Design</p> <h5> A </h5> </div>
+                        <div className = "subject-and-grade"> <p> MATH 3081 Probability and Statistics</p> <h5> A </h5> </div>
+                        <h3>Fall 2024</h3>
+                        <div className = "subject-and-grade"> <p> CS 3000 Algorithms and Data</p> <h5> A </h5> </div>
+                        <div className = "subject-and-grade"> <p> CY 2550 Intro to Cyber Security</p> <h5> A </h5> </div>
+                        <div className = "subject-and-grade"> <p> EECE 2310 Intro to Digital Design and Computer Architecture</p> <h5> A </h5> </div>
+                        <div className = "subject-and-grade"> <p> MATH 2321 Calculus 3</p> <h5> A </h5> </div>
+                        <h3>Summer 2024</h3>
+                        <div className = "subject-and-grade"> <p> CS 3500 Object Oriented Design</p> <h5> A </h5> </div>
+                        <div className = "subject-and-grade"> <p> HIS 2220 History of Technology</p> <h5> A </h5> </div>
+                        <h3>Spring 2024</h3>
+                        <div className = "subject-and-grade"> <p> CS 2510 Fundamentals of Computer Science 2</p> <h5> A </h5> </div>
+                        <div className = "subject-and-grade"> <p> CS 2810 Mathematics of Data Models</p> <h5> A </h5> </div>
+                        <div className = "subject-and-grade"> <p> INTB 1209 International Buisness and Global, Social Responsibilty</p> <h5> A </h5> </div>
+                        <div className = "subject-and-grade"> <p> MATH 1342 Calculus 2</p> <h5> A </h5> </div>
+                        <h3>Fall 2023</h3>
+                        <div className = "subject-and-grade"> <p> CS 2500 Fundamentals of Computer Science 1</p> <h5> A </h5> </div>
+                        <div className = "subject-and-grade"> <p> CS 1800 Discrete Data Structures</p> <h5> A </h5> </div>
+                        <div className = "subject-and-grade"> <p> MATH 1365 Intro to Math Reasoning</p> <h5> A </h5> </div>
+                        <div className = "subject-and-grade"> <p> ENGW 1111 First Year Writing</p> <h5> A </h5> </div>
+                    
+                    </div>
+                }
+                ec = {
+                    <div>
+                        <h3>Husky Ambassadors</h3>
+                        <h5> 2023 - present</h5>
+                        <p>Conducted engaging tours for groups of up to 50 students and parents, showcasing the Boston campus</p>
+                        <p>Warmly greeted prospective students, addressed inquiries, resolved concerns, and ensured visitor
+                        satisfaction while working on the registration desk</p>
+                        <p> Part of Recruitment Committee, 13 person team that read over 520 applications, conducted interviews, and helped select candidates</p>
+                        <h3>Volunteer with Northeastern University’s Center for Stem Education</h3>
+                        <h5> 2023 - present</h5>
+                        <p>Assisted with field trips for elementary and middle school students to Northeastern’s campus, engaged
+                        groups of 40 + students in educational activities and led age-appropriate presentations on AI</p>
+                        <h3> StemOut</h3>
+                        <h5> 2023 - present</h5>
+                        <p> Developed curriculum for elementary and primary aged children and helped facilitate running these activities at local librarys in the Boston community</p>
+                        <h3>Theme Park Engineers</h3>
+                        <h5> 2023 - 2024 </h5>
+                        <p> Collaborated as part of a 4-person team to design and implement C++ code for real-time user score
+                        display on an LED screen. Utilized Arduino microcontroller hardware to interface with the LED system</p>
+                    </div>
+                }
+                honours = {
+                    <div> 
+                        <div className = "honours"> <h3>Dean's List</h3> <p> Khoury College of Computer Science</p> <h5> Fall 2024 </h5> </div>
+                        <div className = "honours"> <h3>Dean's List</h3> <p> Khoury College of Computer Science</p> <h5> Spring 2024 </h5> </div>
+                        <div className = "honours"> <h3>Dean's List</h3> <p> Khoury College of Computer Science</p> <h5> Fall 2023 </h5> </div>
+                    </div>
+                }
                 />
                 <EducationCard className = "education-card"
                 title = {"Secondary School"}
@@ -100,7 +153,6 @@ export default function Eductaion() {
                         <div className = "honours"> <h3>Bebras Computer Science Challenge Elite Distinction</h3> <p> National </p> <h5> 2021 </h5> </div>
                         <div className = "honours"> <h3>Bebras Computer Science Challenge Senior Distinction</h3> <p> National </p> <h5> 2020 </h5> </div>
                         <div className = "honours"> <h3>UKMT Challenge Intermediate Bronze</h3> <p> National </p> <h5> 2020 </h5> </div>
-                    
                     </div>
                 }
                 />
