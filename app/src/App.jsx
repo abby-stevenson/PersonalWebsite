@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from './NavBar';
 import AboutMe from './AboutMe';
 import Education from './Education';
+import Projects from './Projects';
 
 
 /* Sets up the main page and set up the routes to the other pages so that the use can interact with the 
@@ -12,6 +13,7 @@ export default function App() {
         <Navbar />
         <AboutMe />
         <Education />
+        <Projects />
       </div> 
     );
 }
