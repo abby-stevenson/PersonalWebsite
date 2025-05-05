@@ -32,10 +32,26 @@ export default function Projects() {
                 </div>
                 <div className = "project-pair">
                     <div className = "project-one">
-
+                        <h3>Checkout Flow for a Web Application</h3>
+                        <h4>Java Script, CSS, HTML, React</h4>
+                        <h5> December 2024 </h5>
+                        <p> Implemented a checkout flow based on styled Figma design</p>
+                        <p>Fetched items from an external API and built functionality for adding to cart and checking out</p>
+                        <a href="https://github.com/abby-stevenson/Stocks" target="_blank" rel="noopener noreferrer">
+                                <FontAwesomeIcon icon={faGithub} size="2x" className="github-icon" />
+                            </a>
                     </div>
                     <div className = "project-two">
-                        
+                        <h3>Stock Portfolio Management System </h3>
+                        <h4>Java</h4>
+                        <h5>June 2024</h5>
+                        <p>Implemented key financial computations, including X-day moving averages, and crossover detection</p>
+                        <p>Used well-structured design principles such as MVC architecture and design patterns to ensure
+                        modularity, scalability, and maintainability</p>
+                        <a href="https://github.com/abby-stevenson/CheckOutFlow" target="_blank" rel="noopener noreferrer">
+                                <FontAwesomeIcon icon={faGithub} size="2x" className="github-icon" />
+                            </a>
+
                     </div>
                 </div>
               </div>

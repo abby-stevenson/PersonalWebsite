@@ -69,3 +69,20 @@
     z-index: 1;
     object-fit: cover;
 }
+
+.project-pair {
+    display: flex;      
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px;
+}
+
+.project-one {
+    width: 50%;
+    padding-right: 1rem;
+}
+
+.project-two {
+    width: 50%;
+}
