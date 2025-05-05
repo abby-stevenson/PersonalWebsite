@@ -109,13 +109,11 @@ export default function Projects() {
                 </div>
                 <div className = "project-pair">
                     <div className = "project-one">
-                        <h3>Minesweeper Game Implementation</h3>
-                        <h4>Java </h4>
-                        <h5> April 2024 </h5>
-                        <p> Designed and developed a Minesweeper game in Java using object-oriented principles</p>
-                        <p>Implemented game mechanics such as random mine placement, neighbor cell calculations, flagging
-                        mechanics, and uncovering logic for cells with zero neighboring mines</p>
-                        <a href="https://github.com/abby-stevenson/Minesweeper" target="_blank" rel="noopener noreferrer">
+                        <h3>Streaming Service Home Page</h3>
+                        <h4>Java Script, CSS, HTML, React</h4>
+                        <h5> August 2024 </h5>
+                        <p> Implemented a streaming service based on styled Figma design</p>
+                        <a href="https://github.com/abby-stevenson/StreamingServiceHomePage" target="_blank" rel="noopener noreferrer">
                                 <FontAwesomeIcon icon={faGithub} size="2x" className="github-icon" />
                             </a>
                     </div>
