@@ -55,7 +55,6 @@ export default function Projects() {
                             </a>
                     </div>
                 </div>
-
                 <div className="generate-border">
                     <div className = "project-and-picture">
                         <div className = "picture">
@@ -82,6 +81,43 @@ export default function Projects() {
                             </div>
                         </div>
                         
+                    </div>
+                </div>
+                <div className = "project-pair">
+                    <div className = "project-one">
+                        <h3>Minesweeper Game Implementation</h3>
+                        <h4>Java </h4>
+                        <h5> April 2024 </h5>
+                        <p> Designed and developed a Minesweeper game in Java using object-oriented principles</p>
+                        <p>Implemented game mechanics such as random mine placement, neighbor cell calculations, flagging
+                        mechanics, and uncovering logic for cells with zero neighboring mines</p>
+                        <a href="https://github.com/abby-stevenson/Minesweeper" target="_blank" rel="noopener noreferrer">
+                                <FontAwesomeIcon icon={faGithub} size="2x" className="github-icon" />
+                            </a>
+                    </div>
+                    <div className = "project-two">
+                        <h3> Shell Project </h3>
+                        <h4>C</h4>
+                        <h5>February 2025</h5>
+                        <p>Developed a custom Unix-style shell supporting input/output redirection, command sequencing, piping, 
+                            standard shell commands, and several built-in commands.</p>
+                        <p>Implemented a tokenizer to parse user input into structured command components, enabling reliable execution of complex command chains.</p>
+                        <a href="https://github.com/abby-stevenson/ShellProject" target="_blank" rel="noopener noreferrer">
+                                <FontAwesomeIcon icon={faGithub} size="2x" className="github-icon" />
+                            </a>
+                    </div>
+                </div>
+                <div className = "project-pair">
+                    <div className = "project-one">
+                        <h3>Minesweeper Game Implementation</h3>
+                        <h4>Java </h4>
+                        <h5> April 2024 </h5>
+                        <p> Designed and developed a Minesweeper game in Java using object-oriented principles</p>
+                        <p>Implemented game mechanics such as random mine placement, neighbor cell calculations, flagging
+                        mechanics, and uncovering logic for cells with zero neighboring mines</p>
+                        <a href="https://github.com/abby-stevenson/Minesweeper" target="_blank" rel="noopener noreferrer">
+                                <FontAwesomeIcon icon={faGithub} size="2x" className="github-icon" />
+                            </a>
                     </div>
                 </div>
               </div>
