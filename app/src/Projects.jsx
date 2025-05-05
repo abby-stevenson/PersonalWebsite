@@ -2,8 +2,10 @@ import React from 'react';
 import './Projects.css';
 import GenerateLogo from './assets/Generate-logo.png';
 import ThreeStonesPic from './assets/3stones.png';
+import AALogo from './assets/AALogo.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faYoutube } from '@fortawesome/free-brands-svg-icons';
 
 export default function Projects() {
     return (
@@ -51,7 +53,35 @@ export default function Projects() {
                         <a href="https://github.com/abby-stevenson/CheckOutFlow" target="_blank" rel="noopener noreferrer">
                                 <FontAwesomeIcon icon={faGithub} size="2x" className="github-icon" />
                             </a>
+                    </div>
+                </div>
 
+                <div className="generate-border">
+                    <div className = "project-and-picture">
+                        <div className = "picture">
+                            <img className="AA-pic" src={AALogo} alt="Picture of plane (logo for altitude analysts)"/>
+                        </div>
+                        <div className = "description">
+                            <h3>Altitude Analysts</h3>
+                            <h4>Python, MySQL, Streamlit</h4>
+                            <h5>April 2025</h5>
+                            <p>Altitude Analysts is a full-stack web application designed to streamline flight logistics for a 
+                                range of stakeholders, including travel agents, passengers, airline managers, and airport 
+                                administrators. </p>
+                            <p>Collaborated with a team of five engineers to design and implement a robust database, 
+                                write optimized SQL queries, and build RESTful API routes to manage users, flights, bookings, 
+                                and administrative functions.</p>
+                            <p>Developed a user-friendly front end using Streamlit to ensure intuitive navigation and responsive interaction.</p>
+                            <div className="icon-list">
+                                <a href="https://github.com/abby-stevenson/AltitudeAnalysts" target="_blank" rel="noopener noreferrer">
+                                    <FontAwesomeIcon icon={faGithub} size="2x" className="github-icon" />
+                                </a>
+                                <a href="https://www.youtube.com/watch?v=CppA8bC0s08" target="_blank" rel="noopener noreferrer">
+                                    <FontAwesomeIcon icon={faYoutube} size="2x" className="github-icon" />
+                                </a>
+                            </div>
+                        </div>
+                        
                     </div>
                 </div>
               </div>

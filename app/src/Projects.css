@@ -15,8 +15,8 @@
 }
 
 .generate-logo {
-    width: 30rem;     
-    height: 9rem;   
+    width: 15rem;     
+    height: 4.5rem;   
     border-radius: 1rem;
     background-color: white;
     z-index: 1;
@@ -33,9 +33,9 @@
 
 .github-icon {
     background-color: white;
-    color: black; /* change if needed */
-    border-radius: 50%; /* optional: make it a circle */
-    padding: 6px;       /* adjust to taste */
+    color: black; 
+    border-radius: 50%; 
+    padding: 6px;      
 }
 
 .github-icon:hover {
@@ -58,14 +58,12 @@
 .picture {
     width: 50%;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    margin-left: 5rem;
 }
 
 .three-stones-pic {
     width: 90%;
     height: auto;
-    border-radius: 1rem;
     z-index: 1;
     object-fit: cover;
 }
@@ -85,4 +83,18 @@
 
 .project-two {
     width: 50%;
+}
+
+.icon-list {
+    display: flex;      
+    flex-direction: row;
+    width: 100%;
+    gap: 20px;
+}
+
+.AA-pic {
+    width: 70%;
+    height: auto;
+    border-radius: 1rem;
+    z-index: 1;
 }
