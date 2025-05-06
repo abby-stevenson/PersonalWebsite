@@ -6,6 +6,7 @@ import AALogo from './assets/AALogo.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faYoutube } from '@fortawesome/free-brands-svg-icons';
+import { faCircleInfo } from '@fortawesome/free-solid-svg-icons';
 
 export default function Projects() {
     return (
@@ -116,6 +117,24 @@ export default function Projects() {
                         <a href="https://github.com/abby-stevenson/StreamingServiceHomePage" target="_blank" rel="noopener noreferrer">
                                 <FontAwesomeIcon icon={faGithub} size="2x" className="github-icon" />
                             </a>
+                    </div>
+                    <div className = "project-two">
+                        <h3>Exquisite Corpse</h3>
+                        <h4>Java Script, CSS, HTML</h4>
+                        <h5> February 2024 </h5>
+                        <p> Developed during a HackBeanpot hackathon, it is a collaborative web-based drawing application inspired by the surrealist game of the same name.</p>
+                        <p> Separate players will draw a head, torso, and legs of a figure without seeing what the others are drawing. At the end, all three will be displayed together as an "exquisite corpse!"</p>
+                        <div className='icon-list'>
+                            <a href="https://github.com/lbrissette/exquisitecorpse" target="_blank" rel="noopener noreferrer">
+                                    <FontAwesomeIcon icon={faGithub} size="2x" className="github-icon" />
+                            </a>
+                            <a href="https://www.youtube.com/watch?v=9GSiDWcgxAM&t=1s" target="_blank" rel="noopener noreferrer">
+                                    <FontAwesomeIcon icon={faYoutube} size="2x" className="github-icon" />
+                            </a>
+                            <a href="https://devpost.com/software/exquisite-corpse-9hqt0y" target="_blank" rel="noopener noreferrer">
+                                <FontAwesomeIcon icon={faCircleInfo} size="2x" className="github-icon" />
+                            </a>
+                        </div>
                     </div>
                 </div>
               </div>
