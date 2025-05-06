@@ -12,11 +12,15 @@
     flex-wrap: wrap;
     width: 100%;
     align-items: flex-start;
+    justify-content: center;
+    gap: 6rem;
 }
 
 .logo {
-    width: 31rem;     
-    height: 15rem;   
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    max-height: 210px;
     border-radius: 1rem;
 }
 
