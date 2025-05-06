@@ -18,7 +18,6 @@ import './NavBar.css';
                 <a href="#projects">
                     <button className='nav-button'>Projects</button>
                 </a>
-                <button className='nav-button'>Experience</button>
                 <a href="/Resume.pdf" target="_blank" rel="noopener noreferrer">
                     <button className="nav-button">Resume</button>
                 </a>
