@@ -3,8 +3,14 @@
   "version": "1.0.0",
   "description": "A website to showcase my projects and experiences",
   "main": "index.js",
+  "homepage": "https://abby-stevenson.github.io",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
@@ -16,5 +22,9 @@
     "@fortawesome/react-fontawesome": "^0.2.2",
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0",
+    "gh-pages": "^6.3.0"
   }
 }
