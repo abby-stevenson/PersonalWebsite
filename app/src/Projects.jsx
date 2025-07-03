@@ -3,10 +3,12 @@ import './Projects.css';
 import GenerateLogo from './assets/Generate-logo.png';
 import ThreeStonesPic from './assets/3stones.png';
 import AALogo from './assets/AALogo.png';
+import SAAImage from './assets/SAAImage.jpeg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faYoutube } from '@fortawesome/free-brands-svg-icons';
 import { faCircleInfo } from '@fortawesome/free-solid-svg-icons';
+
 
 export default function Projects() {
     return (
@@ -106,6 +108,35 @@ export default function Projects() {
                         <a href="https://github.com/abby-stevenson/ShellProject" target="_blank" rel="noopener noreferrer">
                                 <FontAwesomeIcon icon={faGithub} size="2x" className="github-icon" />
                             </a>
+                    </div>
+                </div>
+                 <div className="generate-border">
+                    <div className = "project-and-picture">
+                        <div className = "picture">
+                            <img className="SAA-pic" src={SAAImage} alt="Picture of profile page"/>
+                        </div>
+                        <div className = "description">
+                            <h3> Study Abroad Advisor</h3>
+                            <h4>Java, TypeScript, Tailwind, MongoDB, React, Docker</h4>
+                            <h5>June 2025</h5>
+                            <p>Study Abroad Advisor is a remake of our universitiy's study abroad website. The main aim was to simplify the process
+                                of planning a study abroad for students. </p>
+                            <p>Collaborated with a team of 9 engineers to build a full-stack web app for planning study abroad programs, 
+                                featuring course search, user accounts, and filtered course lists.</p>
+                            <p>Developed backend logic and RESTful endpoints for user authentication and secure login, 
+                                as well as account-based course favouriting</p>
+                            <p>Built React Native screens and integrated them with backend services to support university browsing, 
+                                a centralised homepage and home pages for each university</p>
+                            <div className="icon-list">
+                                <a href="https://github.com/abby-stevenson/SAA" target="_blank" rel="noopener noreferrer">
+                                    <FontAwesomeIcon icon={faGithub} size="2x" className="github-icon" />
+                                </a>
+                                <a href="https://youtu.be/Od14ni-uda4" target="_blank" rel="noopener noreferrer">
+                                    <FontAwesomeIcon icon={faYoutube} size="2x" className="github-icon" />
+                                </a>
+                            </div>
+                        </div>
+                        
                     </div>
                 </div>
                 <div className = "project-pair">

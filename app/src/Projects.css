@@ -109,3 +109,11 @@
     border-radius: 1rem;
     z-index: 1;
 }
+
+.SAA-pic {
+    width: 90%;
+    max-width: 1000px;  
+    height: auto;
+    border-radius: 1rem;
+    z-index: 1;
+}
