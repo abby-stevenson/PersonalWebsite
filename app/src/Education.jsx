@@ -15,6 +15,9 @@ export default function Eductaion() {
                 logo = {<img className="logo" src={NULogo} alt="Northeastern Logo" />}
                 classes = {
                     <div>
+                        <h3>Summer 2025</h3>
+                        <div className = "subject-and-grade"> <p> CS 4530 Fundamentals of Software Engineering</p> <h5> A </h5> </div>
+                        <div className = "subject-and-grade"> <p> CS 4992 Topics in Computer Science</p> <h5> A </h5> </div>
                         <h3>Spring 2025</h3>
                         <div className = "subject-and-grade"> <p> CS 3800 Theory of Computation</p> <h5> A </h5> </div>
                         <div className = "subject-and-grade"> <p> CS 3650 Computer Systems</p> <h5> A </h5> </div>
@@ -36,9 +39,8 @@ export default function Eductaion() {
                         <h3>Fall 2023</h3>
                         <div className = "subject-and-grade"> <p> CS 2500 Fundamentals of Computer Science 1</p> <h5> A </h5> </div>
                         <div className = "subject-and-grade"> <p> CS 1800 Discrete Data Structures</p> <h5> A </h5> </div>
-                        <div className = "subject-and-grade"> <p> MATH 1365 Intro to Math Reasoning</p> <h5> A </h5> </div>
                         <div className = "subject-and-grade"> <p> ENGW 1111 First Year Writing</p> <h5> A </h5> </div>
-                    
+                        <div className = "subject-and-grade"> <p> MATH 1365 Intro to Math Reasoning</p> <h5> A </h5> </div>
                     </div>
                 }
                 ec = {
@@ -49,6 +51,9 @@ export default function Eductaion() {
                         <p>Warmly greeted prospective students, addressed inquiries, resolved concerns, and ensured visitor
                         satisfaction while working on the registration desk</p>
                         <p> Part of Recruitment Committee, 13 person team that read over 520 applications, conducted interviews, and helped select candidates</p>
+                        <p> Co-Chair of the Development Committee, oversee a 10-12 person commitee that are responsible for certifying new tour guides and evaluating 
+                            current tour guides. 
+                        </p>
                         <h3>Volunteer with Northeastern University’s Center for Stem Education</h3>
                         <h5> 2023 - present</h5>
                         <p>Assisted with field trips for elementary and middle school students to Northeastern’s campus, engaged
