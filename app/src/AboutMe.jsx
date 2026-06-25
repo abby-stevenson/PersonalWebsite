@@ -13,8 +13,8 @@ export default function AboutMe() {
             </div>
             <div className="right-hand-side">
             <p>
-                Hello! I'm a second-year Computer Science student at Northeastern University, with a concentration in Artificial Intelligence and minoring in Mathematics.
-                I'm excited to be starting my first co-op at Toast in the coming months.
+                Hello! I'm a senior at Northeastern University majoring in Computer Science, with a concentration in Artificial Intelligence and minoring in Mathematics.
+                I'm currently on my second co-op at Toast.
             </p>
             <p>
                 I grew up in a small town just north of London, and since starting at Northeastern in Fall 2023, I’ve been based in Boston.
