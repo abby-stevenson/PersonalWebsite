@@ -4,6 +4,7 @@ import GenerateLogo from './assets/Generate-logo.png';
 import ThreeStonesPic from './assets/3stones.png';
 import AALogo from './assets/AALogo.png';
 import SAAImage from './assets/SAAImage.jpeg';
+import CineCircleLogo from './assets/CineCircleLogo.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faYoutube } from '@fortawesome/free-brands-svg-icons';
@@ -18,20 +19,22 @@ export default function Projects() {
                 <div className="generate-border">
                     <img className="generate-logo" src={GenerateLogo} alt="Generate Logo" />
                     <div className = "project-and-picture">
+                        <div className = "picture">
+                            <img className="cinecircle-pic" src={CineCircleLogo} alt="CineCircle logo" />
+                        </div>
                         <div className = "description">
-                            <h3>3 Stones (Real Estate Mobile App)</h3>
-                            <h4>Golang, TypeScript, Tailwind, SQL, React Native</h4>
-                            <h5>September – December 2024</h5>
-                            <p>3 Stones is a mobile app to facilitate crowd funding real estate investing, allowing individuals to invest directly in projects 
-                                and project managers to obtain capital. </p>
-                            <p>Collaborated with 7 engineers on a full stack mobile application for Generate Product Development </p>
-                            <p>Developed Golang endpoints and React Native screens to support portfolio investment features</p>
-                            <a href="https://github.com/GenerateNU/3stones" target="_blank" rel="noopener noreferrer">
+                            <h3>CineCircle (Social Media Mobile App)</h3>
+                            <h4>TypeScript, React Native, Express, PostgreSQL, Prisma, Supabase, Docker</h4>
+                            <h5>September – December 2025</h5>
+                            <p>CineCircle is a community-oriented social media app for South Indian movie fans to stay updated with, 
+                                discuss, and review Tollywood, Kollywood, Mollywood, and Sandalwood cinema.</p>
+                            <p>Collaborated with a team of engineers on a full stack mobile application for Generate Product Development</p>
+                            <p>Built the post creation flow in React Native, including short and long post forms, a reusable toolbar, 
+                                movie selection, tags, ratings, and spoiler flags</p>
+                            <p>Developed reusable components such as carousel posts, star ratings, and modals, and connected them to backend services</p>
+                            <a href="https://github.com/GenerateNU/cinecircle" target="_blank" rel="noopener noreferrer">
                                 <FontAwesomeIcon icon={faGithub} size="2x" className="github-icon" />
                             </a>
-                        </div>
-                        <div className = "picture">
-                            <img className="three-stones-pic" src={ThreeStonesPic} alt="Picture of Phone Screens showing app" />
                         </div>
                     </div>
                 </div>
@@ -54,6 +57,50 @@ export default function Projects() {
                         <p>Used well-structured design principles such as MVC architecture and design patterns to ensure
                         modularity, scalability, and maintainability</p>
                         <a href="https://github.com/abby-stevenson/CheckOutFlow" target="_blank" rel="noopener noreferrer">
+                                <FontAwesomeIcon icon={faGithub} size="2x" className="github-icon" />
+                            </a>
+                    </div>
+                </div>
+                <div className="generate-border">
+                    <img className="generate-logo" src={GenerateLogo} alt="Generate Logo" />
+                    <div className = "project-and-picture">
+                        <div className = "description">
+                            <h3>3 Stones (Real Estate Mobile App)</h3>
+                            <h4>Golang, TypeScript, Tailwind, SQL, React Native</h4>
+                            <h5>September – December 2024</h5>
+                            <p>3 Stones is a mobile app to facilitate crowd funding real estate investing, allowing individuals to invest directly in projects 
+                                and project managers to obtain capital. </p>
+                            <p>Collaborated with 7 engineers on a full stack mobile application for Generate Product Development </p>
+                            <p>Developed Golang endpoints and React Native screens to support portfolio investment features</p>
+                            <a href="https://github.com/GenerateNU/3stones" target="_blank" rel="noopener noreferrer">
+                                <FontAwesomeIcon icon={faGithub} size="2x" className="github-icon" />
+                            </a>
+                        </div>
+                        <div className = "picture">
+                            <img className="three-stones-pic" src={ThreeStonesPic} alt="Picture of Phone Screens showing app" />
+                        </div>
+                    </div>
+                </div>
+                <div className = "project-pair">
+                    <div className = "project-one">
+                        <h3>Snake Battle Royale — AI Training Project</h3>
+                        <h4>Python</h4>
+                        <h5> January - April 2026 </h5>
+                        <p> A multiplayer snake game where AI-controlled snakes are trained to compete against each other 
+                            and optionally a human player. Two training approaches are supported: a genetic algorithm that 
+                            evolves neural-network weights, and a Deep Q-Learning agent trained via reinforcement learning.</p>
+                        <a href="https://github.com/Ryaken-Nakamoto/snake-battle-royale" target="_blank" rel="noopener noreferrer">
+                                <FontAwesomeIcon icon={faGithub} size="2x" className="github-icon" />
+                            </a>
+                    </div>
+                    <div className = "project-two">
+                        <h3> Grade Optimiser</h3>
+                        <h4>Python</h4>
+                        <h5>March - April 2026</h5>
+                        <p>Developed a custom Unix-style shell supporting input/output redirection, command sequencing, piping, 
+                            standard shell commands, and several built-in commands.</p>
+                        <p>Implemented a tokenizer to parse user input into structured command components, enabling reliable execution of complex command chains.</p>
+                        <a href="https://github.com/abby-stevenson/GradeOptimiser" target="_blank" rel="noopener noreferrer">
                                 <FontAwesomeIcon icon={faGithub} size="2x" className="github-icon" />
                             </a>
                     </div>
@@ -88,26 +135,31 @@ export default function Projects() {
                 </div>
                 <div className = "project-pair">
                     <div className = "project-one">
-                        <h3>Snake Battle Royale — AI Training Project</h3>
-                        <h4>Python</h4>
-                        <h5> January - April 2026 </h5>
-                        <p> A multiplayer snake game where AI-controlled snakes are trained to compete against each other 
-                            and optionally a human player. Two training approaches are supported: a genetic algorithm that 
-                            evolves neural-network weights, and a Deep Q-Learning agent trained via reinforcement learning.</p>
-                        <a href="https://github.com/Ryaken-Nakamoto/snake-battle-royale" target="_blank" rel="noopener noreferrer">
+                        <h3>Streaming Service Home Page</h3>
+                        <h4>Java Script, CSS, HTML, React</h4>
+                        <h5> August 2024 </h5>
+                        <p> Implemented a streaming service based on styled Figma design</p>
+                        <a href="https://github.com/abby-stevenson/StreamingServiceHomePage" target="_blank" rel="noopener noreferrer">
                                 <FontAwesomeIcon icon={faGithub} size="2x" className="github-icon" />
                             </a>
                     </div>
                     <div className = "project-two">
-                        <h3> Grade Optimiser</h3>
-                        <h4>Python</h4>
-                        <h5>March - April 2026</h5>
-                        <p>Developed a custom Unix-style shell supporting input/output redirection, command sequencing, piping, 
-                            standard shell commands, and several built-in commands.</p>
-                        <p>Implemented a tokenizer to parse user input into structured command components, enabling reliable execution of complex command chains.</p>
-                        <a href="https://github.com/abby-stevenson/GradeOptimiser" target="_blank" rel="noopener noreferrer">
-                                <FontAwesomeIcon icon={faGithub} size="2x" className="github-icon" />
+                        <h3>Exquisite Corpse</h3>
+                        <h4>Java Script, CSS, HTML</h4>
+                        <h5> February 2024 </h5>
+                        <p> Developed during a HackBeanpot hackathon, it is a collaborative web-based drawing application inspired by the surrealist game of the same name.</p>
+                        <p> Separate players will draw a head, torso, and legs of a figure without seeing what the others are drawing. At the end, all three will be displayed together as an "exquisite corpse!"</p>
+                        <div className='icon-list'>
+                            <a href="https://github.com/lbrissette/exquisitecorpse" target="_blank" rel="noopener noreferrer">
+                                    <FontAwesomeIcon icon={faGithub} size="2x" className="github-icon" />
                             </a>
+                            <a href="https://www.youtube.com/watch?v=9GSiDWcgxAM&t=1s" target="_blank" rel="noopener noreferrer">
+                                    <FontAwesomeIcon icon={faYoutube} size="2x" className="github-icon" />
+                            </a>
+                            <a href="https://devpost.com/software/exquisite-corpse-9hqt0y" target="_blank" rel="noopener noreferrer">
+                                <FontAwesomeIcon icon={faCircleInfo} size="2x" className="github-icon" />
+                            </a>
+                        </div>
                     </div>
                 </div>
                  <div className="generate-border">
@@ -137,35 +189,6 @@ export default function Projects() {
                             </div>
                         </div>
                         
-                    </div>
-                </div>
-                <div className = "project-pair">
-                    <div className = "project-one">
-                        <h3>Streaming Service Home Page</h3>
-                        <h4>Java Script, CSS, HTML, React</h4>
-                        <h5> August 2024 </h5>
-                        <p> Implemented a streaming service based on styled Figma design</p>
-                        <a href="https://github.com/abby-stevenson/StreamingServiceHomePage" target="_blank" rel="noopener noreferrer">
-                                <FontAwesomeIcon icon={faGithub} size="2x" className="github-icon" />
-                            </a>
-                    </div>
-                    <div className = "project-two">
-                        <h3>Exquisite Corpse</h3>
-                        <h4>Java Script, CSS, HTML</h4>
-                        <h5> February 2024 </h5>
-                        <p> Developed during a HackBeanpot hackathon, it is a collaborative web-based drawing application inspired by the surrealist game of the same name.</p>
-                        <p> Separate players will draw a head, torso, and legs of a figure without seeing what the others are drawing. At the end, all three will be displayed together as an "exquisite corpse!"</p>
-                        <div className='icon-list'>
-                            <a href="https://github.com/lbrissette/exquisitecorpse" target="_blank" rel="noopener noreferrer">
-                                    <FontAwesomeIcon icon={faGithub} size="2x" className="github-icon" />
-                            </a>
-                            <a href="https://www.youtube.com/watch?v=9GSiDWcgxAM&t=1s" target="_blank" rel="noopener noreferrer">
-                                    <FontAwesomeIcon icon={faYoutube} size="2x" className="github-icon" />
-                            </a>
-                            <a href="https://devpost.com/software/exquisite-corpse-9hqt0y" target="_blank" rel="noopener noreferrer">
-                                <FontAwesomeIcon icon={faCircleInfo} size="2x" className="github-icon" />
-                            </a>
-                        </div>
                     </div>
                 </div>
                 <div className = "project-pair">

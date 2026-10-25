@@ -110,6 +110,16 @@
     z-index: 1;
 }
 
+.cinecircle-pic {
+    width: 35%;
+    max-width: 220px;
+    height: auto;
+    align-self: center;
+    object-fit: contain;
+    border-radius: 1rem;
+    z-index: 1;
+}
+
 .SAA-pic {
     width: 90%;
     max-width: 1000px;  
