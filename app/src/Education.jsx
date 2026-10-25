@@ -15,6 +15,11 @@ export default function Eductaion() {
                 logo = {<img className="logo" src={NULogo} alt="Northeastern Logo" />}
                 classes = {
                     <div>
+                        <h3>Spring 2026</h3>
+                        <div className = "subject-and-grade"> <p> CS 4100 Introduction to AI</p> <h5> A- </h5> </div>
+                        <div className = "subject-and-grade"> <p> DS 4400 Machine Learning 1</p> <h5> A- </h5> </div>
+                        <div className = "subject-and-grade"> <p> MATH 3527 Number Theory</p> <h5> A- </h5> </div>
+                        <div className = "subject-and-grade"> <p> ENGW 3302 Advanced Writing</p> <h5> A </h5> </div>
                         <h3>Summer 2025</h3>
                         <div className = "subject-and-grade"> <p> CS 4530 Fundamentals of Software Engineering</p> <h5> A </h5> </div>
                         <div className = "subject-and-grade"> <p> CS 4992 Topics in Computer Science</p> <h5> A </h5> </div>
