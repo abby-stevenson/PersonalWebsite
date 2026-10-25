@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from './NavBar';
 import AboutMe from './AboutMe';
 import Education from './Education';
+import WorkExperience from './WorkExperience';
 import Projects from './Projects';
 
 
@@ -13,6 +14,7 @@ export default function App() {
         <Navbar />
         <AboutMe />
         <Education />
+        <WorkExperience />
         <Projects />
       </div> 
     );

@@ -15,6 +15,9 @@ import './NavBar.css';
                 <a href="#education">
                     <button className="nav-button">Education</button>
                 </a>
+                <a href="#work-experience">
+                    <button className="nav-button">Experience</button>
+                </a>
                 <a href="#projects">
                     <button className='nav-button'>Projects</button>
                 </a>
