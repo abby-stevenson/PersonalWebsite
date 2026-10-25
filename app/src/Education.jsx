@@ -74,6 +74,7 @@ export default function Eductaion() {
                 }
                 honours = {
                     <div> 
+                        <div className = "honours"> <h3>Dean's List</h3> <p> Khoury College of Computer Science</p> <h5> Spring 2026 </h5> </div>
                         <div className = "honours"> <h3>Dean's List</h3> <p> Khoury College of Computer Science</p> <h5> Fall 2024 </h5> </div>
                         <div className = "honours"> <h3>Dean's List</h3> <p> Khoury College of Computer Science</p> <h5> Spring 2024 </h5> </div>
                         <div className = "honours"> <h3>Dean's List</h3> <p> Khoury College of Computer Science</p> <h5> Fall 2023 </h5> </div>
